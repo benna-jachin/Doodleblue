@@ -1,0 +1,67 @@
+.bar {
+    margin: 0 auto;
+    border-radius: 30px;
+    border: 1px solid #7367f0;
+    box-shadow: #7367f0 0px 2px 5px 0px;
+  }
+  .bar:hover {
+    box-shadow: 1px 1px 8px 1px #7367f0;
+  }
+  .bar:focus-within {
+    box-shadow: 1px 1px 8px 1px #7367f0;
+    outline: none;
+  }
+  .searchbar {
+    height: 45px;
+    border: none;
+    font-size: 16px;
+    color: #666666;
+    outline: none;
+    background: transparent;
+  }
+  .selectUser {
+    margin-top: 18%;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #666666;
+  }
+  .absolute {
+    position: fixed;
+    width: 67%;
+    bottom: 40px;
+  }
+  
+  .receivedMessage {
+    background-color: #a3d28c;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600px;
+    border-radius: 20px 20px 20px 0px;
+    text-align: left;
+    padding: 6px;
+    width: fit-content;
+  }
+  .sendMessage {
+    background-color: rgb(134, 166, 223);
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600px;
+    border-radius: 20px 20px 0px 20px;
+    width: fit-content;
+    margin: 0;
+    padding: 6px;
+    float: right;
+  }
+  .messageBox {
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 600px;
+    border: 1px solid #666666;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0;
+    padding: 6px;
+    outline: none;
+  }
